@@ -39,6 +39,8 @@ public class Alumno {
     @Column(nullable = false, updatable = false)
     private Timestamp createdAt;
 
-    @OneToMany(mappedBy = "alumno", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "alumno", fetch = FetchType.LAZY)
     private List<Evaluacion> evaluaciones;
+
+
 }

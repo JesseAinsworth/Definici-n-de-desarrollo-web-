@@ -53,6 +53,6 @@ public class Maestro {
     private Timestamp createdAt;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "maestro", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "maestro", fetch = FetchType.LAZY)
     private List<Evaluacion> evaluaciones;
 }

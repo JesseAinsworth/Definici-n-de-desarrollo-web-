@@ -9,4 +9,5 @@ public class MensajesError {
     public static final String FECHA_NACIMIENTO_REQUERIDO = "Fecha de nacimiento es requerida";
     public static final String FECHA_NACIMIENTO_ANTERIOR_FECHA_ACTUAL = "Fecha de nacimiento debe ser un valor anterior a la fecha actual";
     public static final String NO_ENCONTRADO = "Not Found";
+    public static final String VALOR_REQUERIDO = "Evaluacion no debe estar vacio";
 }
